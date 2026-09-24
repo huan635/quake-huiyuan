@@ -1,0 +1,56 @@
+@font-face{font-family:"Alibaba PuHuiTi 3.0";src:url("assets/AlibabaPuHuiTi-3-85-Bold.otf");font-weight:700;}
+@font-face{font-family:"Alimama ShuHeiTi";src:url("assets/阿里妈妈数黑体AlimamaShuHeiTi.otf");font-weight:700;}
+@font-face{font-family:"DIN Next LT Pro";src:url("assets/DINNextLTPro-Bold.OTF");font-weight:700;}
+*{box-sizing:border-box;border:0 solid transparent}html,body,p{margin:0}body{background:#eef0f3;font-family:"PingFang SC",sans-serif;-webkit-font-smoothing:antialiased}img{display:block}main{width:375px;margin:auto} [data-node-id="98:3892"]{width:375px!important;height:1223px!important;overflow:hidden;isolation:isolate}[data-name=".设计进程说明"]{display:none!important}@media(max-width:374px){main{zoom:calc(100vw / 375px)}}
+@font-face{font-family:Inter;src:url("assets/Inter.ttf");font-weight:100 900;}
+@font-face{font-family:"Noto Sans SC";src:url("assets/NotoSansSC.ttf");font-weight:100 900;}
+
+/* Figma 赠品说明: preserve the text independently from the decorative frame mask. */
+[data-node-id="98:3922"]{mask-image:none!important;-webkit-mask-image:none!important;line-height:17.802px!important;height:18px;white-space:nowrap!important;z-index:1}
+/* Original three gradient fills, exported from Rectangle 41 to retain their transforms. */
+[data-node-id="98:4095"]{background-image:url("assets/benefit-background.svg")!important;background-size:100% 100%;background-repeat:no-repeat}
+
+/* 375 × 812 viewport: content scrolls independently of the renewal footer. */
+main{position:relative;height:812px;overflow:hidden;isolation:isolate}
+.page-scroll{width:100%;height:100%;overflow-x:hidden;overflow-y:auto;overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch;scrollbar-width:none;scroll-padding-bottom:138px}
+.page-scroll::-webkit-scrollbar{display:none}
+main>[data-node-id="108:5796"]{position:absolute!important;top:auto!important;bottom:0;left:0;z-index:10}
+.page-scroll:focus-visible{outline:2px solid #d39539;outline-offset:-2px}
+
+.capacity-label-window{position:absolute;left:40px;top:199px;width:190px;height:15px;overflow:hidden}.capacity-gold{position:absolute;inset:0;border-radius:inherit;background:linear-gradient(to right,#ffd75f,#ffb92c);opacity:0}
+
+/* Keep capacity right-aligned throughout the numeric transition. */
+[data-node-id="98:4058"]{left:auto!important;right:40px;width:auto;text-align:right;white-space:nowrap}
+
+.page-scroll>[data-node-id="104:4710"]{width:375px!important;height:1223px!important;overflow:hidden;isolation:isolate}
+main>[data-name="05 底部续费与协议"]{position:absolute!important;top:auto!important;bottom:0;left:0;z-index:10}
+[data-node-id="104:4726"]{background-image:url("assets/plus-background.svg")!important;background-size:100% 100%}
+[data-node-id="104:4821"]{mask-image:none!important;-webkit-mask-image:none!important}
+.capacity-label-window{top:197px}
+.capacity-outline{position:absolute;inset:-1px;border-radius:inherit;border:1px solid transparent;background:linear-gradient(100deg,#ffbd4a,#ff5745) border-box;mask:linear-gradient(#fff 0 0) padding-box,linear-gradient(#fff 0 0);mask-composite:exclude;pointer-events:none}
+.metal-shine{position:absolute;inset:0;mask-repeat:no-repeat;mask-size:100% 100%;overflow:hidden;pointer-events:none}
+.metal-beam{position:absolute;top:-25%;left:-70px;width:22px;height:150%;background:linear-gradient(90deg,transparent,rgba(255,253,230,.85),transparent);filter:blur(3px);transform:skewX(-20deg);animation:metal-sweep 3.6s ease-in-out 1.4s infinite}
+@keyframes metal-sweep{0%,19.167%{left:-70px;opacity:0}28.111%{opacity:.8}61.333%{left:190px;opacity:.8}67.722%,100%{left:190px;opacity:0}}
+.coupon-timer{font-variant-numeric:tabular-nums;font-feature-settings:'tnum';min-width:50px}
+.renewal-pulse{isolation:isolate;transform-origin:center;animation:renewal-breathe 3.6s ease-in-out infinite}
+.renewal-glow{position:absolute;inset:-40%;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at 20% 65%,rgba(255,173,211,.6),transparent 45%),radial-gradient(ellipse at 75% 40%,rgba(255,210,77,.65),transparent 48%),radial-gradient(ellipse at 45% 75%,rgba(156,219,255,.35),transparent 40%);filter:blur(10px);animation:glow-drift 5.4s ease-in-out infinite alternate}
+@keyframes renewal-breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.015)}}
+@keyframes glow-drift{from{transform:translateX(-8%) rotate(-6deg);opacity:.35}to{transform:translateX(8%) rotate(7deg);opacity:.85}}
+a[data-node-id]{cursor:pointer}a[data-node-id]:focus-visible{outline:2px solid #b9813d;outline-offset:6px;border-radius:3px}
+@media(prefers-reduced-motion:reduce){.metal-beam,.renewal-pulse,.renewal-glow{animation:none}.metal-beam{display:none}}
+[data-node-id="104:4895"]{left:auto!important;right:40px;text-align:right}
+.coupon-timer{letter-spacing:.3px!important;width:55px}
+[data-node-id="112:5896"],[data-node-id="112:5902"]{left:174px!important;letter-spacing:0!important}
+/* Cards slide behind the stationary Rectangle 59 lip at y=249. */
+.membership-card-slot{position:absolute;left:0;top:0;width:375px;height:249px;overflow:hidden;pointer-events:none;z-index:2}
+.membership-card-panel{position:absolute;inset:0;width:375px;height:249px;will-change:transform}
+[data-node-id="98:4062"]{z-index:3;pointer-events:none}
+/* SVIP+ management text uses the light cream color from the design. */
+[data-node-id="104:4893"]{color:rgb(250.56,229.64,181.69)!important}
+.renewal-pulse{animation:renewal-breathe-emphasis 3.2s ease-in-out infinite}
+@keyframes renewal-breathe-emphasis{0%,100%{transform:scale(.985)}50%{transform:scale(1.035)}}
+.renewal-pulse::after{content:"";position:absolute;pointer-events:none;z-index:2;top:-55%;left:-45%;width:25%;height:210%;background:linear-gradient(90deg,transparent,rgba(255,255,241,.65),transparent);filter:blur(3px);transform:skewX(-22deg);animation:renewal-sheen 3.8s ease-in-out 1s infinite}
+@keyframes renewal-sheen{0%,18.947%{left:-45%;opacity:0}27.789%{opacity:.8}60.632%{left:125%;opacity:.8}69.474%,100%{left:125%;opacity:0}}
+@media(prefers-reduced-motion:reduce){.renewal-pulse,.renewal-pulse::after{animation:none}.renewal-pulse::after{display:none}}
+
+[data-node-id="109:5882"]{visibility:hidden}.membership-card-panel [data-node-id="109:5882"]{visibility:visible}
